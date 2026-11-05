@@ -4,6 +4,8 @@ Hey everyone, back with another writeup that two and a half people will actually
 
 On the operating table we have 15 scanner modules and the host `steamservice.dll` itself (CRC `7ebac2a4`). Let's see how this thing lived and why it finally died.
 
+> **Repository & full C++20 source:** [github.com/sapdragon/vac](https://github.com/sapdragon/vac)
+
 ![I told yo ass not to reverse VAC](img/intro_meme_en.png)
 
 ---

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Debug|Win32"><Configuration>Debug</Configuration><Platform>Win32</Platform></ProjectConfiguration><ProjectConfiguration Include="Release|Win32"><Configuration>Release</Configuration><Platform>Win32</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><VCProjectVersion>17.0</VCProjectVersion><ProjectGuid>{C1A0B7E4-6D21-4F3A-9E10-7EBAC2A40001}</ProjectGuid><RootNamespace>steamservice</RootNamespace><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>Application</ConfigurationType><PlatformToolset>v143</PlatformToolset><CharacterSet>MultiByte</CharacterSet></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup><OutDir>$(SolutionDir)build\$(Configuration)\$(Platform)\\</OutDir><IntDir>$(SolutionDir)build\intermediate\steamservice\$(Configuration)\</IntDir><TargetName>steamservice</TargetName><LinkIncremental>false</LinkIncremental></PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile><LanguageStandard>stdcpp20</LanguageStandard><Optimization>MaxSpeed</Optimization><RuntimeLibrary>MultiThreaded</RuntimeLibrary><ExceptionHandling>Async</ExceptionHandling><AdditionalIncludeDirectories>$(SolutionDir)sdk\src;$(MSBuildThisFileDirectory)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories><AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions><PreprocessorDefinitions>NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions></ClCompile>
+    <Link><SubSystem>Console</SubSystem><GenerateDebugInformation>true</GenerateDebugInformation></Link>
+  </ItemDefinitionGroup>
+  <ItemGroup><ClCompile Include="src\image_loader\win32imageloader.cpp" /><ClCompile Include="src\signature\valvesignature.cpp" /><ClCompile Include="src\module_manager\servicemodulemanagerbase.cpp" /><ClCompile Include="src\module_manager\servicemodulemanagerasync.cpp" /><ClCompile Include="src\process_monitor\vacprocessmonitor.cpp" /><ClCompile Include="src\process_monitor\etwwin32.cpp" /><ClCompile Include="src\process_monitor\clientprocessmonitor.cpp" /><ClCompile Include="src\main.cpp" /><ClInclude Include="src\module_manager\servicemodulemanagerbase.hpp" /><ClInclude Include="src\module_manager\servicemodulemanagerasync.hpp" /><ClInclude Include="src\image_loader\win32imageloader.hpp" /><ClInclude Include="src\signature\valvesignature.hpp" /><ClInclude Include="src\process_monitor\vacprocessmonitor.hpp" /><ClInclude Include="src\process_monitor\clientprocessmonitor.hpp" /><ClInclude Include="src\process_monitor\etwwin32.hpp" /></ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

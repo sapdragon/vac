@@ -1,0 +1,1017 @@
+{
+ "live:boot_config": {
+  "06a79a9e/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3504,
+    3504
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:cpuid": {
+  "023429c3/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    1648,
+    1648
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:devices": {
+  "05ec50dc/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    352,
+    352
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:system_handles": {
+  "002f6dc7/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 2263
+  }
+ },
+ "live:shared_section": {
+  "0e3481c0/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:image_scan": {
+  "0cda6778/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:image_scan_threads": {
+  "05a52008/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:process_file_identity": {
+  "0b2d8276/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "0b2d8276/pid0": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "0b2d8276/pid4": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "0b2d8276/pid_bad": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "0b2d8276/pid_wow64": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:process_memory_map": {
+  "06e048f4/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "06e048f4/pid0": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "06e048f4/pid4": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "06e048f4/pid_bad": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "06e048f4/pid_wow64": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:driver_inventory": {
+  "06acd913/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  },
+  "06c2b5bb/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:service_lookup": {
+  "0fa94991/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    4096,
+    4096
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "live:system_info": {
+  "0f8083a0/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0f8083a0/pid0": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0f8083a0/pid4": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0f8083a0/pid_bad": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0f8083a0/pid_wow64": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0c2232c2/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0c2232c2/pid0": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0c2232c2/pid4": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0c2232c2/pid_bad": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  },
+  "0c2232c2/pid_wow64": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    3072,
+    3072
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 23
+  }
+ },
+ "live:timing_check": {
+  "0d8c40e1/captured": {
+   "ok": true,
+   "ret": [
+    0,
+    0
+   ],
+   "size": [
+    32,
+    32
+   ],
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 0
+  }
+ },
+ "dispatch:boot_config": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:cpuid": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:devices": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:system_handles": {
+  "full_response": {
+   "ok": true,
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 2,
+   "ret": [
+    "1",
+    "1"
+   ]
+  },
+  "other_session_id": {
+   "ok": true,
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 3,
+   "ret": [
+    "1",
+    "1"
+   ]
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:shared_section": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:image_scan": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:image_scan_threads": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:process_file_identity": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:process_memory_map": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:driver_inventory": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:service_lookup": {
+  "full_response": {
+   "ok": true,
+   "exit": "ok   full_response      result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "other_session_id": {
+   "ok": true,
+   "exit": "ok   other_session_id   result=1/1 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:system_info": {
+  "full_response": {
+   "ok": true,
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 11,
+   "ret": [
+    "1",
+    "1"
+   ]
+  },
+  "other_session_id": {
+   "ok": true,
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 13,
+   "ret": [
+    "1",
+    "1"
+   ]
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "dispatch:timing_check": {
+  "full_response": {
+   "ok": true,
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 56,
+   "ret": [
+    "1",
+    "1"
+   ]
+  },
+  "other_session_id": {
+   "ok": true,
+   "real_diff_bytes": 0,
+   "real_ranges": [],
+   "noise_bytes": 59,
+   "ret": [
+    "1",
+    "1"
+   ]
+  },
+  "bad_crc": {
+   "ok": true,
+   "exit": "ok   bad_crc            result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "unknown_module": {
+   "ok": true,
+   "exit": "ok   unknown_module     result=1/1 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "short_input": {
+   "ok": true,
+   "exit": "ok   short_input        result=4/4 size=0x1088/0x1088 diff=0 first=0x0"
+  },
+  "tiny_capacity": {
+   "ok": true,
+   "exit": "ok   tiny_capacity      result=4/4 size=0xf/0xf diff=0 first=0x0"
+  },
+  "small_capacity": {
+   "ok": true,
+   "exit": "ok   small_capacity     result=4/4 size=0x10/0x10 diff=0 first=0x0"
+  },
+  "other_mode": {
+   "ok": true,
+   "exit": "ok   other_mode         result=3/3 size=0x1088/0x1088 diff=0 first=0x0"
+  }
+ },
+ "suite:shared_section:shared_section_parity": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "OK ffffffff case=10 | RESULT 55 cases, 0 failures"
+  }
+ },
+ "suite:target_handles:target_handles_parity": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "OK target_pid_zero_1 | RESULT 108 cases, 0 failures"
+  }
+ },
+ "suite:target_handles:target_handles_parity:live": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "LIVE query size=8388608 status=00000000/00000000 OK | LIVE RESULT 5 checks, 0 failures"
+  }
+ },
+ "suite:system_handles:system_handles_parity": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "OK   frozen_machine_no_handle_only_pids       242 cases, snapshot=470 handles=312057 pids_seen=11766 | RESULT 13620 cases, 0 failures, 32 faulted in both"
+  }
+ },
+ "suite:system_info:system_info_parity": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "ok   wow64_read_8           status=0 ntdll=0 cmd=y real=0 first=0x0 | scenarios=105 failures=0"
+  }
+ },
+ "suite:process_memory_map:process_memory_map_regression": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "PASS: allocation walk, LDR capture, crafted images and empty compression"
+  }
+ },
+ "suite:driver_inventory:driver_inventory_regression": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "fuzzed headers       cases=1500 failures=0 | PASS: 3361 cases, 0 failures, compared against the original"
+  }
+ },
+ "suite:process_file_identity:test_process_file_identity": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "{\"case\": \"process_System32\", \"diff\": 0, \"first\": null, \"ranges\": [], \"envelope_equal\": true} | {\"case\": \"process_SysWOW64\", \"diff\": 0, \"first\": null, \"ranges\": [], \"envelope_equal\": true}"
+  }
+ },
+ "suite:image_scan_threads:test_image_scan_threads": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "turn\": 0, \"original_size\": 4096, \"rebuild_size\": 4096} | {\"case\": \"pe_local_rebuilt_pe\", \"diff\": 0, \"first\": null, \"ranges\": [], \"envelope_equal\": true, \"original_return\": 0, \"rebuild_return\": 0, \"original_size\": 4096, \"rebuild_size\": 4096}"
+  }
+ },
+ "suite:image_scan:test_image_scan_edges": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "OK   local_system_kernel32_file_id: diff=0 first=none rc=0 catalogValid=0 wintrust=0x00000000 catalog=0x00000000 |      dump=C:\\Users\\User\\Documents\\GitHub\\vac-recoded\\build\\image_scan_edge_cases\\local_system_kernel32_file_id"
+  }
+ },
+ "suite:sdk:sdk_tests": {
+  "run": {
+   "ok": true,
+   "exit": 0,
+   "tail": "verify       checks=25 failures=0 | areas=15 checks=361 failures=0"
+  }
+ }
+}

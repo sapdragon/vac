@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f6666666-6666-6666-6666-666666666666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal">
+      <UniqueIdentifier>{f7777777-7777-7777-7777-777777777777}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\driver_inventory.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\pe_file.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\service_digests.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\string_table.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="internal\pe_file.hpp">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\string_table.hpp">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\types.hpp">
+      <Filter>internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="internal\module_data.inl">
+      <Filter>internal</Filter>
+    </None>
+  </ItemGroup>
+
+</Project>

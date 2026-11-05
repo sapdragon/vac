@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{A0F8E1B2-1234-4567-89AB-CDEF01234567}</ProjectGuid>
+    <RootNamespace>VacSdk</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseDebugLibraries Condition="'$(Configuration)'=='Debug'">true</UseDebugLibraries>
+    <UseDebugLibraries Condition="'$(Configuration)'=='Release'">false</UseDebugLibraries>
+    <WholeProgramOptimization Condition="'$(Configuration)'=='Release'">true</WholeProgramOptimization>
+  </PropertyGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="vac_sdk.props" />
+
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)build\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>vac_sdk</TargetName>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <Optimization Condition="'$(Configuration)'=='Debug'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)'=='Release'">MaxSpeed</Optimization>
+      <FunctionLevelLinking Condition="'$(Configuration)'=='Release'">true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <ItemGroup>
+    <ClCompile Include="src\core\dispatcher.cpp" />
+    <ClCompile Include="src\core\entry.cpp" />
+    <ClCompile Include="src\core\vac_util.cpp" />
+    <ClCompile Include="src\crt\intrinsics.cpp" />
+    <ClCompile Include="src\crypto\ice\ice.cpp" />
+    <ClCompile Include="src\crypto\bigint\bigint.cpp" />
+    <ClCompile Include="src\crypto\rsa\rsa.cpp" />
+    <ClCompile Include="src\crypto\random\park_miller.cpp" />
+    <ClCompile Include="src\crypto\hash\md5.cpp" />
+    <ClCompile Include="src\bootstrap\bootstrap.cpp" />
+    <ClCompile Include="src\pe\pe.cpp" />
+    <ClCompile Include="src\process\process.cpp" />
+    <ClCompile Include="src\file\file.cpp" />
+    <ClCompile Include="src\verify\cert_chain.cpp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="src\core\types.hpp" />
+    <ClInclude Include="src\core\layout.hpp" />
+    <ClInclude Include="src\core\packets.hpp" />
+    <ClInclude Include="src\core\module.hpp" />
+    <ClInclude Include="src\core\dispatcher.hpp" />
+    <ClInclude Include="src\core\vac_util.hpp" />
+    <ClInclude Include="src\bootstrap\imports.hpp" />
+    <ClInclude Include="src\bootstrap\blob.hpp" />
+    <ClInclude Include="src\bootstrap\bootstrap.hpp" />
+    <ClInclude Include="src\crypto\hash\crc32.hpp" />
+    <ClInclude Include="src\crypto\hash\hash488781ed.hpp" />
+    <ClInclude Include="src\crypto\hash\md5.hpp" />
+    <ClInclude Include="src\crypto\random\park_miller.hpp" />
+    <ClInclude Include="src\crt\intrinsics.hpp" />
+    <ClInclude Include="src\util\util.hpp" />
+    <ClInclude Include="src\util\strings.hpp" />
+    <ClInclude Include="src\util\wstr.hpp" />
+    <ClInclude Include="src\util\hashing.hpp" />
+    <ClInclude Include="src\util\encoding.hpp" />
+    <ClInclude Include="src\util\win32.hpp" />
+    <ClInclude Include="src\crypto\ice\ice.hpp" />
+    <ClInclude Include="src\crypto\ice\internal\constants.hpp" />
+    <ClInclude Include="src\crypto\ice\internal\sbox.hpp" />
+    <ClInclude Include="src\crypto\ice\internal\round.hpp" />
+    <ClInclude Include="src\crypto\bigint\bigint.hpp" />
+    <ClInclude Include="src\crypto\rsa\rsa.hpp" />
+    <ClInclude Include="src\bootstrap\imports.inl" />
+    <ClInclude Include="src\util\asn1.hpp" />
+    <ClInclude Include="src\util\xor_string.hpp" />
+    <ClInclude Include="src\nt\nt.hpp" />
+    <ClInclude Include="src\pe\pe.hpp" />
+    <ClInclude Include="src\process\process.hpp" />
+    <ClInclude Include="src\file\file.hpp" />
+    <ClInclude Include="src\compress\lz4.hpp" />
+    <ClInclude Include="src\verify\cert_chain.hpp" />
+  </ItemGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+
+</Project>

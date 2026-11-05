@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32"><Configuration>Release</Configuration><Platform>Win32</Platform></ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals"><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>Application</ConfigurationType><PlatformToolset>v143</PlatformToolset><UseDebugLibraries>false</UseDebugLibraries></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup>
+    <OutDir>$(MSBuildThisFileDirectory)..\..\..\build\tests\</OutDir>
+    <IntDir>$(OutDir)driver_inventory\</IntDir>
+    <TargetName>driver_inventory_regression</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile><LanguageStandard>stdcpp20</LanguageStandard><Optimization>MaxSpeed</Optimization><BufferSecurityCheck>false</BufferSecurityCheck><AdditionalOptions>%(AdditionalOptions) /constexpr:steps33554432 /constexpr:depth1024 /utf-8</AdditionalOptions><AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)..;$(MSBuildThisFileDirectory)..\..\..\sdk\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories></ClCompile>
+    <Link><SubSystem>Console</SubSystem><AdditionalDependencies>user32.lib;%(AdditionalDependencies)</AdditionalDependencies><RandomizedBaseAddress>false</RandomizedBaseAddress></Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="regression.cpp" />
+    <ClCompile Include="..\internal\driver_inventory.cpp" />
+    <ClCompile Include="..\internal\pe_file.cpp" />
+    <ClCompile Include="..\internal\service_digests.cpp" />
+    <ClCompile Include="..\internal\string_table.cpp" />
+    <ClCompile Include="..\..\..\sdk\src\bootstrap\bootstrap.cpp" />
+    <ClCompile Include="..\..\..\sdk\src\core\vac_util.cpp" />
+    <ClCompile Include="..\..\..\sdk\src\crypto\hash\md5.cpp" />
+    <ClCompile Include="..\..\..\sdk\src\crypto\ice\ice.cpp" />
+    <ClCompile Include="..\..\..\sdk\src\file\file.cpp" />
+    <ClCompile Include="..\..\..\sdk\src\pe\pe.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

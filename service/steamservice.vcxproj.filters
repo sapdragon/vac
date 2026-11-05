@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="module_manager"><UniqueIdentifier>{C1A0B7E4-6D21-4F3A-9E10-7EBAC2A40010}</UniqueIdentifier></Filter>
+    <Filter Include="image_loader"><UniqueIdentifier>{C1A0B7E4-6D21-4F3A-9E10-7EBAC2A40011}</UniqueIdentifier></Filter>
+    <Filter Include="signature"><UniqueIdentifier>{C1A0B7E4-6D21-4F3A-9E10-7EBAC2A40012}</UniqueIdentifier></Filter>
+    <Filter Include="process_monitor"><UniqueIdentifier>{C1A0B7E4-6D21-4F3A-9E10-7EBAC2A40013}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\module_manager\servicemodulemanagerbase.cpp"><Filter>module_manager</Filter></ClCompile>
+    <ClInclude Include="src\module_manager\servicemodulemanagerbase.hpp"><Filter>module_manager</Filter></ClInclude>
+    <ClCompile Include="src\module_manager\servicemodulemanagerasync.cpp"><Filter>module_manager</Filter></ClCompile>
+    <ClInclude Include="src\module_manager\servicemodulemanagerasync.hpp"><Filter>module_manager</Filter></ClInclude>
+    <ClCompile Include="src\image_loader\win32imageloader.cpp"><Filter>image_loader</Filter></ClCompile>
+    <ClInclude Include="src\image_loader\win32imageloader.hpp"><Filter>image_loader</Filter></ClInclude>
+    <ClCompile Include="src\signature\valvesignature.cpp"><Filter>signature</Filter></ClCompile>
+    <ClInclude Include="src\signature\valvesignature.hpp"><Filter>signature</Filter></ClInclude>
+    <ClCompile Include="src\process_monitor\vacprocessmonitor.cpp"><Filter>process_monitor</Filter></ClCompile>
+    <ClInclude Include="src\process_monitor\vacprocessmonitor.hpp"><Filter>process_monitor</Filter></ClInclude>
+    <ClCompile Include="src\process_monitor\clientprocessmonitor.cpp"><Filter>process_monitor</Filter></ClCompile>
+    <ClInclude Include="src\process_monitor\clientprocessmonitor.hpp"><Filter>process_monitor</Filter></ClInclude>
+    <ClCompile Include="src\process_monitor\etwwin32.cpp"><Filter>process_monitor</Filter></ClCompile>
+    <ClInclude Include="src\process_monitor\etwwin32.hpp"><Filter>process_monitor</Filter></ClInclude>
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+</Project>

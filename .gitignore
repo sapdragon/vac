@@ -1,0 +1,16 @@
+.vs/*
+build/
+analysis/
+__pycache__/
+*.user
+compile_commands.json
+.cache/
+docs/*
+!docs/writeup/
+tools/ida/export_module.py
+tools/ida/find_shared.py
+tools/gen_compile_commands.py
+tools/compare_sections.py
+modules/**/*.md
+service/**/*.md
+sdk/**/*.md

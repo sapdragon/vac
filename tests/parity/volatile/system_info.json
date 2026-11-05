@@ -1,0 +1,4 @@
+{
+  "ranges": [[32, 36], [40, 44], [48, 50], [52, 54], [56, 60], [1780, 1781]],
+  "why": "32-36 m_ulSystemTimeStart and 40-44 m_ulSystemTimeEnd: KUSER_SHARED_DATA SystemTime at worker start and end. 48-50 m_unTickMsStart and 52-54 m_unTickMsEnd: KUSER tick count in ms. 56-60 m_ulCurrentTime: SystemTimeOfDayInformation.CurrentTime. 1780-1781 m_hTargetProcess: the OpenProcess handle value, not a time, only non-zero for a process that opens. Evidence is the original against itself: 37 samples over 1114 s changed exactly the time bytes listed (bytes 36, 44, 50, 54 and 60 only roll over between samples spaced apart, the others also between two runs 0.5 s apart), and 6 WOW64 target pairs changed 1780 in all 6 and 1781 in 2. The bytes above these in each field never changed, so they are still compared."
+}

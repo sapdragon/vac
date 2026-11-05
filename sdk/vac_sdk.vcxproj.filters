@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ItemGroup>
+    <Filter Include="bootstrap">
+      <UniqueIdentifier>{e0000001-0000-4000-8000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compress">
+      <UniqueIdentifier>{e0000002-0000-4000-8000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{e0000003-0000-4000-8000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crt">
+      <UniqueIdentifier>{e0000004-0000-4000-8000-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{e0000005-0000-4000-8000-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\bigint">
+      <UniqueIdentifier>{e0000006-0000-4000-8000-000000000006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\hash">
+      <UniqueIdentifier>{e0000007-0000-4000-8000-000000000007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ice">
+      <UniqueIdentifier>{e0000008-0000-4000-8000-000000000008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ice\internal">
+      <UniqueIdentifier>{e0000009-0000-4000-8000-000000000009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\random">
+      <UniqueIdentifier>{e000000a-0000-4000-8000-00000000000a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\rsa">
+      <UniqueIdentifier>{e000000b-0000-4000-8000-00000000000b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\rsa\internal">
+      <UniqueIdentifier>{e000000c-0000-4000-8000-00000000000c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{e000000d-0000-4000-8000-00000000000d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nt">
+      <UniqueIdentifier>{e000000e-0000-4000-8000-00000000000e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pe">
+      <UniqueIdentifier>{e000000f-0000-4000-8000-00000000000f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process">
+      <UniqueIdentifier>{e0000010-0000-4000-8000-000000000010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{e0000011-0000-4000-8000-000000000011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="verify">
+      <UniqueIdentifier>{e0000012-0000-4000-8000-000000000012}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="src\core\types.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\layout.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\packets.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\module.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dispatcher.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\vac_util.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bootstrap\imports.hpp">
+      <Filter>bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bootstrap\blob.hpp">
+      <Filter>bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bootstrap\bootstrap.hpp">
+      <Filter>bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\hash\crc32.hpp">
+      <Filter>crypto\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\hash\hash488781ed.hpp">
+      <Filter>crypto\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\hash\md5.hpp">
+      <Filter>crypto\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\random\park_miller.hpp">
+      <Filter>crypto\random</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crt\intrinsics.hpp">
+      <Filter>crt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\util.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\strings.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\wstr.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\hashing.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\encoding.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\win32.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\ice\ice.hpp">
+      <Filter>crypto\ice</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\ice\internal\constants.hpp">
+      <Filter>crypto\ice\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\ice\internal\sbox.hpp">
+      <Filter>crypto\ice\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\ice\internal\round.hpp">
+      <Filter>crypto\ice\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\bigint\bigint.hpp">
+      <Filter>crypto\bigint</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\rsa\rsa.hpp">
+      <Filter>crypto\rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bootstrap\imports.inl">
+      <Filter>bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\asn1.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\xor_string.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nt\nt.hpp">
+      <Filter>nt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pe\pe.hpp">
+      <Filter>pe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\process\process.hpp">
+      <Filter>process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file\file.hpp">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="src\compress\lz4.hpp">
+      <Filter>compress</Filter>
+    </ClInclude>
+    <ClInclude Include="src\verify\cert_chain.hpp">
+      <Filter>verify</Filter>
+    </ClInclude>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="src\core\dispatcher.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\entry.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\vac_util.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crt\intrinsics.cpp">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\ice\ice.cpp">
+      <Filter>crypto\ice</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\bigint\bigint.cpp">
+      <Filter>crypto\bigint</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\rsa\rsa.cpp">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\random\park_miller.cpp">
+      <Filter>crypto\random</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\hash\md5.cpp">
+      <Filter>crypto\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bootstrap\bootstrap.cpp">
+      <Filter>bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pe\pe.cpp">
+      <Filter>pe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\process\process.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\file.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\verify\cert_chain.cpp">
+      <Filter>verify</Filter>
+    </ClCompile>
+  </ItemGroup>
+
+</Project>

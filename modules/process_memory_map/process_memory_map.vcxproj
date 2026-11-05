@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32"><Configuration>Debug</Configuration><Platform>Win32</Platform></ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32"><Configuration>Release</Configuration><Platform>Win32</Platform></ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals"><VCProjectVersion>17.0</VCProjectVersion><ProjectGuid>{C8F11829-8ABD-4C17-9D3C-7E9B69F00004}</ProjectGuid><RootNamespace>ProcessMemoryMapModule</RootNamespace><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion><ProjectName>process_memory_map</ProjectName></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>DynamicLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset><CharacterSet>Unicode</CharacterSet><UseDebugLibraries Condition="'$(Configuration)'=='Debug'">true</UseDebugLibraries><UseDebugLibraries Condition="'$(Configuration)'=='Release'">false</UseDebugLibraries></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(SolutionDir)sdk\vac_sdk.props" />
+  <PropertyGroup><OutDir>$(SolutionDir)build\$(Configuration)\$(Platform)\</OutDir><IntDir>$(OutDir)$(ProjectName)\</IntDir><TargetName>process_memory_map</TargetName><LinkIncremental>false</LinkIncremental></PropertyGroup>
+  <ItemDefinitionGroup><ClCompile><Optimization Condition="'$(Configuration)'=='Release'">MinSpace</Optimization><AdditionalIncludeDirectories>$(MSBuildThisFileDirectory);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories></ClCompile></ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="internal\image_hash.cpp" />
+    <ClCompile Include="internal\lz4_block.cpp" />
+    <ClCompile Include="internal\module_records.cpp" />
+    <ClCompile Include="internal\pe_reader.cpp" />
+    <ClCompile Include="internal\process_context.cpp" />
+    <ClCompile Include="internal\scan.cpp" />
+    <ClCompile Include="internal\string_blob.cpp" />
+    <ClInclude Include="internal\pe_reader.hpp" />
+    <ClInclude Include="internal\process_context.hpp" />
+    <ClInclude Include="internal\report_builder.hpp" />
+    <ClInclude Include="internal\types.hpp" />
+  </ItemGroup>
+  <ItemGroup><ProjectReference Include="$(SolutionDir)sdk\vac_sdk.vcxproj"><Project>{A0F8E1B2-1234-4567-89AB-CDEF01234567}</Project></ProjectReference></ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

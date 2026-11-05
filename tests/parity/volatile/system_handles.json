@@ -1,0 +1,4 @@
+{
+  "ranges": [[20, 4096]],
+  "why": "Everything after the header lists live processes and handles, which change between the calls. The controlled system_handles_parity suite compares these bytes on one frozen system instead."
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32"><Configuration>Debug</Configuration><Platform>Win32</Platform></ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32"><Configuration>Release</Configuration><Platform>Win32</Platform></ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals"><VCProjectVersion>17.0</VCProjectVersion><ProjectGuid>{EA334C4B-0B75-4B37-95F3-4E66A9B70001}</ProjectGuid><RootNamespace>SystemHandlesModule</RootNamespace><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion><ProjectName>system_handles</ProjectName></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>DynamicLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset><CharacterSet>Unicode</CharacterSet><UseDebugLibraries Condition="'$(Configuration)'=='Debug'">true</UseDebugLibraries><UseDebugLibraries Condition="'$(Configuration)'=='Release'">false</UseDebugLibraries></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(SolutionDir)sdk\vac_sdk.props" />
+  <PropertyGroup><OutDir>$(SolutionDir)build\$(Configuration)\$(Platform)\</OutDir><IntDir>$(OutDir)$(ProjectName)\</IntDir><TargetName>system_handles</TargetName><LinkIncremental>false</LinkIncremental></PropertyGroup>
+  <ItemDefinitionGroup><ClCompile><Optimization Condition="'$(Configuration)'=='Release'">MinSpace</Optimization><AdditionalIncludeDirectories>$(MSBuildThisFileDirectory);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories></ClCompile></ItemDefinitionGroup>
+  <ItemGroup><ClCompile Include="entry.cpp" /><ClCompile Include="internal\scan.cpp" /><ClCompile Include="internal\string_table.cpp" /><ClInclude Include="internal\types.hpp" /></ItemGroup>
+  <ItemGroup><ProjectReference Include="$(SolutionDir)sdk\vac_sdk.vcxproj"><Project>{A0F8E1B2-1234-4567-89AB-CDEF01234567}</Project></ProjectReference></ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
